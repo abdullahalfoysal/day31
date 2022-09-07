@@ -1,0 +1,221 @@
+/* Header Section*/
+.jon-header{
+    background-color: rgba(255, 255, 255, 0.991);
+    backdrop-filte:blur(12px)
+    border-bottom: 1px solid #ddd;
+    padding: 6px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.jon-header span img {
+    height: 50px;
+    width: 50px;
+    margin-right: 3px;
+}
+.jon-header .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 28px;
+    font-weight: 700;
+}
+.jon-menu .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+/* Slider Section*/
+.slider-section{
+    background: url(img/img-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0 ;
+    color: #fff;
+    
+     
+
+    position: relative;
+    z-index: 9;
+    margin-top: 70px;
+    
+
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(22, 151, 220, 0.229);
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    font-size: 20px;
+    margin-bottom: 38px;
+    font-weight: 400;
+    COLOR: #090a0a;
+    background-color: #0d91e708;
+    padding: 19px 30px;
+    border-radius: 9px;
+    backdrop-filter: blur(5px);
+    display: inline-block;
+}
+.slider-caption h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #0c00000f;
+    padding: 11px 28px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    : ;
+}
+.slider-caption .btn {
+    padding: 11px 60px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #46e0e7;
+}   
+.slider-caption .form-control {
+    padding: 15px 30px;
+}
+/* About section*/
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-caption {
+    margin-top: 126px;
+}
+.about-caption .h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-caption .lead {
+    font-size: 23px;
+    line-height: 2.5rem;
+    margin-top: 30px;
+}
+/* feature section*/
+.about-mean-title {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.about-mean-title .h2 {
+    font-size: 45px;
+}
+.about-mean-title .lead {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.feature-section{
+    margin-bottom: 59px;
+}
+.feature-item {
+    box-shadow: 4px 3px 11px -4px;
+    height: 250px;
+    margin-right: 20px;
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    margin-right: -41px;
+}
+.right-caption {
+    width: 60%;
+    padding: 30px;
+    margin-right: -29px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -53px;
+}
+.right-caption .lead{}
+
+/* protfolio-section*/
+
+.protfolio-item{}
+.protfolio-item a{
+    position: relative;
+    display: block;
+}
+.protfolio-item a::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;   
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37, 26, 197, 0.402);
+    opacity: 0;     
+    visibility: hidden;
+    transition: .4s;
+
+}
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.min-section-bg{
+    background: #f7f9ff;
+}
+/* pricing-section*/
+
+.pricing-table-sectio{}
+.pricing-table-sectio {}
+
+.pricing-item{
+    box-shadow: 4px 3px 11px -4px;
+}
+.pricing-item h1{}
+.pricing-item p{}
+.pricing-item ul li {
+    font-size: 15px;
+    line-height: 50px;
+    
+}
+.pricing-item-button{}
+
+/* Testimonial Section */
+  
+.testimonial-img img {
+    height: 100px; 
+    width: 100px;
+    border-radius: 50%;
+}
+.t-bio {
+    position: relative;
+    top: 36px;
+    margin-left: 6px;
+}
+ 
+/* about section*/
+.about-item{
+    margin-top: 120px
+}
+.about-item .card{}
+.about-item .card img {
+    width: 100px;
+    height: 100px;
+    margin-top: -72px;
+    margin-left: 15px;
+}
+
+/* content section css*/
+.content-form-div{
+    box-shadow: 4px 3px 11px -4px rgba(35, 177, 228, 0.4);
+
+}
+/* footer section*/
+.footer-section {
+    background-color: #009ef352;
+    font-weight: bold;
+}
+ 
